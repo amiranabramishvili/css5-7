@@ -527,5 +527,152 @@ body {
     font-weight: 500;
     line-height: 24px;
     border: none;
-    
+
+}
+
+.CostumizeDiv {
+    display: flex;
+    width: 1040px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    margin-bottom: 125px;
+}
+
+.WorkRowDiv {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    align-self: stretch;
+}
+
+.WorkRowDiv h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 485px;
+}
+
+.WorkRowDiv p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.523%;
+}
+
+.BuyNowRowDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.AlmostFooterDiv {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    width: 1040px;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+.LogoColumnDiv {
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.LogoColumnDiv p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 320px;
+}
+
+.MainFooterRowDiv {
+    display: flex;
+    min-width: 800px;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.ProductColDiv {
+    display: flex;
+    width: 176px;
+    min-width: 96px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.OverviewDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.ProductColDiv h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.OverviewDiv p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.BadgeRow {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.LastFooter {
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.LastFooter p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Images {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
