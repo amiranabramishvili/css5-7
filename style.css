@@ -482,7 +482,7 @@ body {
     width: 304px;
 }
 
-.TextEmail p {
+.TextEmail input {
     color: #717680;
     text-overflow: ellipsis;
     font-family: Inter;
@@ -490,6 +490,8 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    background: #0B0B0E;
+    border: none;
 }
 
 .Wrapper p {
@@ -675,4 +677,167 @@ body {
     display: flex;
     align-items: center;
     gap: 24px;
+}
+
+.FirstBuy {
+    display: flex;
+    padding: 40px 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    background: #191919;
+    flex-direction: column;
+}
+
+.FtitleDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.RowFDiv {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ColumnFDiv {
+    display: flex;
+    width: 125px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+.ColumnFDiv span {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ColumnFDiv p {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.VisitCenterDiv p {
+    color: #7A7A7A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.MainFDivo {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: flex-start;
+}
+
+.OwnDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 32px;
+}
+
+.OwnRowDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.OwnRowDiv p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 260%;
+}
+
+.BuyNowDiiiv {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1.5px solid #FF371A;
+    background: #FF371A;
+}
+
+.BuyNowDiiiv button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #FF371A;
+    border: none;
+}
+
+.Mainnnn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    align-self: stretch;
+}
+
+.popularDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.popularDiv span {
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #FF371A;
+    color: #FFF;
+}
+
+.popularDiv p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.BuyNowBlackDIv {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border: 1.5px solid #FF371A;
+}
+
+.BuyNowBlackDIv button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background: #191919;
+    border: none;
+
 }
